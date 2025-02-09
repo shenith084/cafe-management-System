@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteRule ^main$ index.php [NC,L] 
+RewriteRule ^processing$ process.php [NC,L]
+RewriteRule ^login$ login.php [NC,L]
+RewriteRule ^adminpanel$ adminpanel.php [NC,L]
+RewriteRule ^add_customer$ add_customer.php [NC,L]
+RewriteRule ^add_product$ add_product.php [NC,L]
+RewriteRule ^addsales$ addsales.php [NC,L]
+RewriteRule ^income$ income.php [NC,L]
+RewriteRule ^monthlyincome$ monthlyincome.php [NC,L]
+RewriteRule ^deletetillsales$ deletetillsales.php [NC,L]
+
+Options -Indexes
